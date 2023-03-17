@@ -1,0 +1,7 @@
+docker run -it --entrypoint bash <Image>
+docker commit [options] container [repository[:Tag]]
+docker load < file.tar
+docker container prune --filter "until=12h"
+docker container stop $(docker container ls -aq)
+#remove stopped containers in previous version of docker
+docker container rm $(docker container ls -aq)
