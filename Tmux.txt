@@ -1,0 +1,5 @@
+Tmux ls - list session
+Tmux new -s "name"
+Split vertically - ctrl +b "
+Split horizontally - ctrl + b %
+Deleting - ctrl + b x
